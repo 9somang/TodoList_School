@@ -36,6 +36,15 @@ button[type="submit"] {
 	cursor: pointer;
 }
 
+logout-btn{
+	text-align: center;
+	display: inline-block;
+	background-color: #4CAF50;
+	color: #4CAF50;
+	border: none;
+}
+
+
 button[type="submit"]:hover {
 	background-color: #3e8e41;
 }

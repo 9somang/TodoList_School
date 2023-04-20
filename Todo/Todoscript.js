@@ -52,3 +52,8 @@ function renderTodos() {
     ul.appendChild(li);
   }
 }
+
+function logout() {
+  localStorage.clear();
+  window.location.href = "login.html";
+}
